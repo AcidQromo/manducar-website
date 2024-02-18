@@ -1,3 +1,4 @@
-template-file-path: main-infra.yaml
-parameters: {}
-tags: {}
+Resources:
+  manducar-website:
+    Type: AWS::S3::Bucket
+    Properties: {}
