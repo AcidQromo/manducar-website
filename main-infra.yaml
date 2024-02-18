@@ -1,11 +1,6 @@
-AWSTemplateFormatVersion: "2024-02-18"
 
 Resources:
-  website-dev:
-    Type: "AWS::S3::Bucket"
-    Properties:
-      AccessControl: PublicRead
-      WebsiteConfiguration:
-        IndexDocument: "index.html"
-        ErrorDocument: "error.html"
+  manducar-website:
+    Type: AWS::S3::Bucket
+    Properties: {}
 
