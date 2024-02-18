@@ -1,4 +1,4 @@
 Resources:
-  manducar-website:
+  manducarwebsite:
     Type: AWS::S3::Bucket
     Properties: {}
